@@ -1,5 +1,12 @@
 const counters = document.querySelectorAll('.value');
 const speed = 500;
+// dark/light theme
+function theme() {
+	document.querySelector(".theme").classList.toggle("rotate");
+	// document.querySelector(".tool-tip").classList.toggle("visible");
+	document.body.classList.toggle("light");
+  document.body.classList.toggle("dark");
+}
 
 counters.forEach( counter => {
    const animate = () => {
