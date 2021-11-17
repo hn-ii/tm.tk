@@ -1,31 +1,3 @@
-const options = {
-  bottom: '64px', // default: '32px'
-  right: 'unset', // default: '32px'
-  left: '32px', // default: 'unset'
-  time: '0.5s', // default: '0.3s'
-  mixColor: '#9269de', // default: '#fff'
-  backgroundColor: '#9269de',  // default: '#fff'
-  buttonColorDark: '#9269de',  // default: '#100f2c'
-  buttonColorLight: '#9269de', // default: '#fff'
-  saveInCookies: true, // default: true,
-  label: '🌓', // default: ''
-  autoMatchOsTheme: false // default: true
-}
-.darkmode--activated p, .darkmode--activated li {
-  color: #7D429A;
-}
-
-.button {
-  isolation: isolate;
-}
-
-.darkmode--activated .logo {
-  mix-blend-mode: difference;
-}
-<span class="darkmode-ignore">😬<span>
-const darkmode = new Darkmode(options);
-darkmode.showWidget();
-
 const counters = document.querySelectorAll('.value');
 const speed = 500;
 // dark/light theme
