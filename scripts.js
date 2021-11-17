@@ -11,7 +11,18 @@ const options = {
   label: '🌓', // default: ''
   autoMatchOsTheme: false // default: true
 }
+.darkmode--activated p, .darkmode--activated li {
+  color: #7D429A;
+}
 
+.button {
+  isolation: isolate;
+}
+
+.darkmode--activated .logo {
+  mix-blend-mode: difference;
+}
+<span class="darkmode-ignore">😬<span>
 const darkmode = new Darkmode(options);
 darkmode.showWidget();
 
