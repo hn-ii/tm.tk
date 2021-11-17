@@ -5,8 +5,8 @@ const options = {
   time: '0.5s', // default: '0.3s'
   mixColor: '#9269de', // default: '#fff'
   backgroundColor: '#9269de',  // default: '#fff'
-  buttonColorDark: '#100f2c',  // default: '#100f2c'
-  buttonColorLight: '#fff', // default: '#fff'
+  buttonColorDark: '#9269de',  // default: '#100f2c'
+  buttonColorLight: '#9269de', // default: '#fff'
   saveInCookies: true, // default: true,
   label: '🌓', // default: ''
   autoMatchOsTheme: false // default: true
