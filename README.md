@@ -1,6 +1,6 @@
-# tunes🎧website 2021
+# tunes🎧website 2022
 
-the new website can be found at https://tunesmusic.netlify.app/
+the new website can be found at https://tunesmusic.tk/ we have moved on to a new cleaner domain
 
 if you found a bug with the website you can report it here https://github.com/hnitch/tunes-feedback-and-bugs under issues
 
