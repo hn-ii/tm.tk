@@ -1,9 +1,23 @@
+document.onkeydown = function(e) {
+if(event.keyCode == 123) {
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+return false;
+}
+}
 const counters = document.querySelectorAll('.value');
 const speed = 500;
 // dark/light theme
 function theme() {
 	document.querySelector(".theme").classList.toggle("rotate");
-	// document.querySelector(".tool-tip").classList.toggle("visible");
+	
 	document.body.classList.toggle("light");
   document.body.classList.toggle("dark");
 }
