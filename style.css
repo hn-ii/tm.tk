@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
 @media only screen and (min-width: 481px) and (max-width: 900px) {
     #ddmenu li div.column.mayHide {
         display: none;
