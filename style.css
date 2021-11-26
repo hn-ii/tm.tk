@@ -1,11 +1,3 @@
-html {
-
-  overflow: hidden;
-}
-
-
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 #content-desktop {display: block;}
 #content-mobile {display: none;}
@@ -165,7 +157,7 @@ footer {
   right: 0;
   left: 0;
   text-decoration: none;
-   padding: 10px;
+   padding: 5px;
     text-align: center;
   opacity: 1;
   margin-top: 90px;
