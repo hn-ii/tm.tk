@@ -1,3 +1,6 @@
+function requestDesktopSite() {
+document.getElementsByTagName('meta')['viewport'].content='width= 1440px;';
+}
 <style>
   body.refreshing #inbox {
     filter: blur(1px);
