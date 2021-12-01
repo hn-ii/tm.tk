@@ -34,7 +34,19 @@
 			}
 		}
 		{ overflow-x:hidden;}
-	</style>
+	@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+	  </style>
 
 	</head>
 
@@ -54,10 +66,7 @@
 		<a href="">
 			<li class="h">📄</li>
 			 </a>
-			</a>
-		<a href="/" target="">
-			<li>home 🏡</li>
-		</a>
+
        <a href="/invite"
 		 target="_blank">
 			<li>invite tunes🎧</li>
@@ -65,11 +74,15 @@
 		<a href="/support" target="_blank">
 			<li>support server</li>
 		</a>
-	</div>
+	</a>
+		<a href="/" target="">
+			<li>home 🏡</li>
+		</a>
+			 </div>
 
 	<h1>tunes🎧privacy</h1>
 	
-     
+     <p style="font-size:2vw;">Resize the browser window to see how the font size scales.</p>
      
      
      
