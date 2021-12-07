@@ -8,3 +8,5 @@ if you found a bug with the website you can report it here https://github.com/hn
 
 *website developer - Bluzzard#6901*
 | *website developer - ethereal <3#0066 or @hnitch*
+
+`update tunes-website repo moved from @hnitch to @tunesmusic`
