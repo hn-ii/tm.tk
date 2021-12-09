@@ -290,7 +290,53 @@ function showSlides(n) {
   <h2>Support 🙋‍♀️</h2>
   <p class="p2 l">Get support at anytime by joining the support server.</p>
 </div>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
 
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.callout-header {
+  padding: 25px 15px;
+  background: #555;
+  font-size: 30px;
+  color: #6E62CF;
+}
+
+.callout-container {
+  padding: 15px;
+  background-color: #ccc;
+  color: black
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: #6E62CF;
+}
+</style>
+</head>
+<body>
+
+<div class="callout">
+  <div class="callout-header">Cookies & Privacy</div>
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+  <div class="callout-container">
+    <p>tunes🎧 uses cookies to ensure that you get the best experience<a href="/privacy">Learn more</a> or click the X to close.</p>
+  </div>
+</div>
 <footer><a href="/team">©2022 - tunes🎧 | Made by ethereal <3 | @hnitch</a></footer>
 
 	<link href="style.css" rel="stylesheet" type="text/css" />
