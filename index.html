@@ -98,7 +98,8 @@
 	<h1>Key Features 💭</h1>
 
 	<! -- PICTURE SLIDESHOW -->
-<style>
+
+	<style>
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
@@ -271,7 +272,8 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
-<! -- SLIDESHOW END -->
+
+	<! -- SLIDESHOW END -->
 
 	<div class="f">
 	<h2>Music 🎶</h2>
@@ -294,22 +296,22 @@ function showSlides(n) {
 </div>
 <link href="style.css" rel="stylesheet" type="text/css" />
 	
+	
 	<! -- COOKIE BOX -->
+	
 	<style>
-		#title_message {
-    display: none;
+@media all and (min-width: 480px) {
+    .deskContent {display:block;}
+    .phoneContent {display:none;}
 }
 
-@media screen and (min-width: 768px) {
-    #title_message {
-        clear: both;
-        display: block;
-        float: left;
-        margin: 10px auto 5px 20px;
-        width: 28%;
-    }
+@media all and (max-width: 479px) {
+    .deskContent {display:none;}
+    .phoneContent {display:block;}
 }
-body {font-family: Arial, Helvetica, sans-serif;}
+<div class="deskContent">Content for desktop</div>
+<div class="phoneContent">Content for mobile</div>
+		body {font-family: Arial, Helvetica, sans-serif;}
 
 .callout {
   position: fixed;
