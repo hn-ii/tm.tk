@@ -357,14 +357,22 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </style>
 </head>
 <body>
-<script>window.setTimeout("closeDiv();", 5000);</script>
+
 <div class="callout">
   <div class="callout-header">Cookies & Privacy</div>
   <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
   <div class="callout-container">
     <p>tunes🎧 uses cookies to ensure that you get the best experience...<a href="/privacy"> || Learn More ||</a> or click the "X" to close window.</p>
   </div>
-
+<script>$("#div1").mouseenter(function() {
+    var $div2 = $("#div2");
+    if ($div2.is(":visible")) { return; }
+    $div2.show();
+    setTimeout(function() {
+        $div2.hide();
+    }, 5000);
+});</script>
+	
 	<! -- COOKIE BOX END -->
 	
 	</div>
