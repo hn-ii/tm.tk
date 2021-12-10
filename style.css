@@ -6,7 +6,7 @@ body{
 /* customizable snowflake styling */
 .snowflake {
   color: #fff;
-  font-size: 3em;
+  font-size: 2em;
   font-family: Arial;
   text-shadow: 0 0 2px #000;
 }
