@@ -1,3 +1,23 @@
+<script>
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 <script src="https://cmp.osano.com/6oZkhSqh1IC38Ita/6cc0b684-1999-40fb-b189-ec52d36dee66/osano.js"></script>
 function requestDesktopSite() {
 document.getElementsByTagName('meta')['viewport'].content='width= 1440px;';
