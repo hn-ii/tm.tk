@@ -354,7 +354,7 @@ function showSlides(n) {
 <link href="style.css" rel="stylesheet" type="text/css" />
 	
 	 <! -- STATS -->
-	......
+	
 	
 	<! -- STATS END -->
     
@@ -362,7 +362,16 @@ function showSlides(n) {
 	
 	<style>
 <style>
-      @media (max-width: 767px) {
+      #content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+@media (max-width: 767px) {
         .hidden-mobile {
           display: none;
         }
@@ -415,14 +424,15 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </style>
 </head>
 <body>
-
+<div id="content-desktop">
 <div class="callout">
   <div class="callout-header">Cookies & Privacy</div>
   <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
   <div class="callout-container">
     <p>tunes🎧 uses cookies to ensure that you get the best experience...<a href="/privacy"> || Learn More ||</a> or click the "X" to close window.</p>
   </div>
-<script>$("#div1").mouseenter(function() {
+</div>
+	<script>$("#div1").mouseenter(function() {
     var $div2 = $("#div2");
     if ($div2.is(":visible")) { return; }
     $div2.show();
@@ -430,6 +440,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
         $div2.hide();
     }, 5000);
 });</script>
+	<div id="content-mobile">
+	...
+	</div>
 	
 	<! -- COOKIE BOX END -->
 	
