@@ -32,19 +32,7 @@
   2️⃣0️⃣2️⃣2️⃣
   </div>
 </div>
-	<style>
-		@media (prefers-color-scheme:light){
-			body{
-			background-color: #b27ddb;
-			}
-		}
-	@media (prefers-color-scheme:dark){
-			body{
-			background-color: #231f24;
-			}
-		}
-		{ overflow-x:hidden;}
-	</style>
+
 <header>
 	 <body oncontextmenu="return false;">
 
@@ -172,105 +160,6 @@
 
 	<! -- PICTURE SLIDESHOW -->
 
-	<style>
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-
-.slideshow-container {
-  max-width: 945px;
-  position: relative;
-  margin: auto;
-}
-
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-</style>
 </head>
 <body>
 
@@ -317,34 +206,6 @@ img {vertical-align: middle;}
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
 
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
 
 	<! -- SLIDESHOW END -->
 
@@ -375,69 +236,7 @@ function showSlides(n) {
 	<! -- STATS END -->
     
         <! -- COOKIE BOX -->
-	
-	<style>
-<style>
-      #content-desktop {display: block;}
-#content-mobile {display: none;}
 
-@media screen and (max-width: 768px) {
-
-#content-desktop {display: none;}
-#content-mobile {display: block;}
-
-}
-@media (max-width: 767px) {
-        .hidden-mobile {
-          display: none;
-        }
-      }
-		 @media (min-width: 768px) {
-        .text {
-          display: none;
-        }
-      }
-      @media (min-width: 992px) {
-        .text {
-          display: block;
-        }
-      }
-body {font-family: Arial, Helvetica, sans-serif;}
-
-.callout {
-  position: fixed;
-  bottom: 1px;
-  right: 5px;
-  margin-left: 5px;
-  max-width: 250px;
-}
-
-.callout-header {
-  padding: 15px 15px;
-  background: #555;
-  font-size: 30px;
-  color: #6E62CF;
-}
-
-.callout-container {
-  padding: 15px;
-  background-color: #ccc;
-  color: black
-}
-
-.closebtn {
-  position: absolute;
-  top: 5px;
-  right: 15px;
-  color: white;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-.closebtn:hover {
-  color: #6E62CF;
-}
-</style>
 </head>
 <body>
 <div id="content-desktop">
@@ -448,14 +247,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     <p>tunes🎧 uses cookies to ensure that you get the best experience...<a href="/privacy"> || Learn More ||</a> or click the "X" to close window.</p>
   </div>
 </div>
-	<script>$("#div1").mouseenter(function() {
-    var $div2 = $("#div2");
-    if ($div2.is(":visible")) { return; }
-    $div2.show();
-    setTimeout(function() {
-        $div2.hide();
-    }, 5000);
-});</script>
+	
 	<div id="content-mobile">
 	...
 	</div>
