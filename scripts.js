@@ -1,5 +1,3 @@
-<script>
-
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -17,7 +15,7 @@ window.onclick = function(event) {
     }
   }
 }
-</script>
+
 <script src="https://cmp.osano.com/6oZkhSqh1IC38Ita/6cc0b684-1999-40fb-b189-ec52d36dee66/osano.js"></script>
 function requestDesktopSite() {
 document.getElementsByTagName('meta')['viewport'].content='width= 1440px;';
