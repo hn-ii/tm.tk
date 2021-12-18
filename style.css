@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+.button {
+   position: relative;
+  left: 115px;
+    top: 50%;
+  background-color: #763CA9;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor:auto;
+  border-radius: 16px;
+}
+
+.button:hover {
+  background-color: #f1f1f1;
+}
+
 
 body {font-family: Arial, Helvetica, sans-serif;}
 
