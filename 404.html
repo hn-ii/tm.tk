@@ -38,14 +38,15 @@
 
 <body>
 	 <body oncontextmenu="return false;">
-	<div class="custom-shape-divider-top-1635581068">
+	<div id="content-desktop">
+		 <div class="custom-shape-divider-top-1635581068">
 		<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
 			<path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
 		</svg>
 	</div>
 
 	
-		 <div id="content-desktop">
+		
 <ul>
 		<a href="/">
 			<li class="h">🎧 404 🎧</li>
@@ -55,15 +56,22 @@
 			<li>home 🏡</li>
 		</a>
 	</ul>
+</div>
+<div id="content-mobile">
+	<div class="topnav">
+  <a class="active" href="/"><home 🏡/a>
+  <a href="/support">support server</a>
+  <a href="/invite">invite tunes🎧</a>
+</div>
 	</div>
-
-	<h1>{ tunes🎧404 }</h1>
+	
+		 <h1>{ tunes🎧404 }</h1>
 	<p>You find yourself in a weird place... you're lost?...😉 click the home 🏡 button to be redirected to the home page 📄</p>
           <a href="/"
 	        target="">
-		<btn class="inv m">home 🏡</btn>
+		<btn class="button">home 🏡</btn>
 	         </a>
-
+<div id="content-desktop">
 		 <div class="error">404</div>
 <br /><br />
 <span class="info">Page Not Found</span>
@@ -81,14 +89,12 @@ html {
 .static {
   width: 100%;
   height: 100%;
-  position: relative;
+  position: fixed;
   margin: 0;
   padding: 0;
   top: -100px;
   opacity: 0.05;
   z-index: 230;
-  user-select: none;
-  user-drag: none;
 }
 
 .error {
@@ -195,7 +201,12 @@ html {
   4.3% {opacity: 1; transform: scaleY(4);}
   43% {opacity: 1; transform: scaleX(10) rotate(60deg);}
 }</style>
-<footer><a href="/">©2022 - tunes🎧 | Made by ethereal <3 | @hnitch | 🏡</a></footer>
+</div>
+		<div id="content-mobile">
+			...
+		</div>
+	
+		<footer><a href="/">©2022 - tunes🎧 | ethereal <3 | @hnitch | 🏡</a></footer>
 
    
     <script src="script.js"></script>
