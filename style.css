@@ -1,5 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+.team-m {
+ padding: 7%;
+  margin-left: 5px;
+  backdrop-filter: blur(25px) saturate(90%);
+  -webkit-backdrop-filter: blur(25px) saturate(90%);
+  background-color: rgba(24, 25, 28, 0.45);
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 3px 3px 3px black;
+  margin-bottom: 100px;
+  border-bottom: #9269de solid 5px;
+}
+
+.team-m:hover {
+  transition: ease-in-out 0.1s;
+  background-color: rgba(22, 26, 37, 0.45);
+
+}
+.team-m.m {
+  margin-left: 9%;
+}
+
+
+.pfp {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  display: block;
+}
+
 .mbutton {
    position: relative;
   left: 30px;
