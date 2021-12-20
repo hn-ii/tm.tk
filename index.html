@@ -246,8 +246,9 @@ window.onload = function() {
 </head>
 <body>
 <style>
- position: relative; 
-  top: -1250px;
+$('#features').animate({...}, function () {
+    $('#div_id').css({marginTop: '-=15px'});
+});
 	* {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
