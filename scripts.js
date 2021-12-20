@@ -1,5 +1,6 @@
-
-
+function openNav() {
+	document.querySelector("nav").classList.toggle("full");
+}
 var slideIndex = 0;
 showSlides();
 
