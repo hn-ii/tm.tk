@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+.banner {
+	padding: 10px 20px;
+	border-left: 3px solid var(--accent-color);
+	border-radius: 10px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	background: var(--secondary-color);
+	width: fit-content;
+	font-size: 15px;
+	position: absolute;
+	top: 25px;
+	left: 10%;
+}
 
 .team-m {
  padding: 7%;
