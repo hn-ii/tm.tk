@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookie0 &middot; stuff I made</title>
-    <link href="updates.css" rel="stylesheet" type="text/css" />
-		<link rel="icon" href="../favicon.ico">
-  </head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.7 user-scalable=no">
+	<meta name="theme-color" content="#9A85ED">
+  <meta name="title" content="tunes🎧updates">
+  <meta name="description" content="The best way to get all the latest tunes🎧updates">
+  <meta name="keywords" content="Discord bot, Best Discord bot, discord music bot">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <link rel="icon" href="https://cdn.discordapp.com/attachments/884630691239829544/889360376456708106/tunes_main.png" type="image/x-icon">
 
-	<!-- hi if you're that desperate for light mode to be searching in the source, replace 'dark' with 'temp' ;) -->
+	<title>tunes🎧updates</title>
+	<link href="updates/updates.css" rel="stylesheet" type="text/css" />
+	  <style>
+		@media (prefers-color-scheme:light){
+			body{
+			background-color: #b27ddb;
+			}
+		}
+	@media (prefers-color-scheme:dark){
+			body{
+			background-color: #231f24;
+			}
+		}
+	</style>
+	  </head>
+
+	
 	<body class="dark">
 		<nav class="top">
 			<a href="/">
-				<img src="../pfp.png">
+				<img src="../tunes.png">
 			</a>
 
 			<div class="links">
