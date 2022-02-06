@@ -7,36 +7,6 @@ mp {
   margin-bottom: 40px
 }
 
-.banner {
-  background: #9A85ED;
-}
-
-.banner__content {
-  padding: 10px;
-  max-width: auto;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-}
-
-.banner__text {
-  flex-grow: 1;
-  line-height: 1.4;
-  font-family: "Quicksand", sans-serif;
- text-align: center;
-}
-
-.banner__close {
-  background: none;
-  border: 1px;
-  cursor: pointer;
-}
-
-.banner__text,
-.banner__close > span {
-  color: #ffffff;
- text-align: center;
-}
 
 .team-m {
  padding: 7%;
@@ -87,7 +57,7 @@ mp {
    position: relative;
   left: 30px;
     top: 50%;
-  background-color: #763CA9;
+  background-color: #A537C8;
   border: none;
   color: black;
   padding: 10px 20px;
@@ -106,7 +76,7 @@ mp {
    position: relative;
   left: 115px;
     top: 50%;
-  background-color: #763CA9;
+  background-color: #A537C8;
   border: none;
   color: black;
   padding: 10px 20px;
